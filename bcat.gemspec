@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
   s.executables = ['a2h', 'bcat', 'btee']
 
   s.test_files = s.files.select {|path| path =~ /^test\/.*_test.rb/}
-  s.add_dependency 'rack', '< 1.2'
+  s.add_dependency 'rack'
 
   s.extra_rdoc_files = %w[COPYING]
 
